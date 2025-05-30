@@ -1,7 +1,27 @@
 ---
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/settings/
-
+background: /bg5.jpg
+title: Tree of Liberty
+theme: dark
+color: slate
+layout:
+  - Overview:
+      - weather
+      - resources
+      - datetime
+  - Media:
+      - jellyfin
+      - navidrome
+      - jellyseerr
+  - Services:
+      - nextcloud
+      - homepage
+  - Search:
+      - search
+headerStyle: clean  # "boxed", "underlined", or "clean"
+hideVersion: true
 providers:
-  openweathermap: openweathermapapikey
-  weatherapi: weatherapiapikey
+  openweathermap: 79017a226d87b9db02e3bc40fa118644
+
+

@@ -2,6 +2,15 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/bookmarks
 
+- TheFirm:
+    - name: Shared Calendar
+      icon: calendar
+      url: https://calendar.google.com
+
+    - name: Rangers Schedule
+      icon: baseball
+      url: https://www.mlb.com/rangers/schedule
+
 - Developer:
     - Github:
         - abbr: GH

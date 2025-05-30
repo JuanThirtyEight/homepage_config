@@ -1,12 +1,33 @@
 ---
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/info-widgets/
+# https://gethomepage.dev/configs/info-widgets/
 
 - resources:
+    label: "System Usage"
+    expanded: true
     cpu: true
     memory: true
-    disk: /
+    disk: /    
+- datetime:
+    label: "Local Time"
+    format: "dddd, MMMM Do YYYY, h:mm:ss A"
+
+- weather:
+    label: "Home Weather"
+    latitude: 40.4775
+    longitude: 104.9014
+    provider: openweathermap
+    units: imperial
 
 - search:
     provider: duckduckgo
     target: _blank
+
+- resources:
+    label: MLB Scores
+    url: http://10.0.0.145:5005/mlb/scores
+    type: json
+    fields:
+      - name
+      - value

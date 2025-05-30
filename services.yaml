@@ -1,18 +1,29 @@
 ---
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
+# https://gethomepage.dev/configs/services/
 
-- My First Group:
-    - My First Service:
-        href: http://localhost/
-        description: Homepage is awesome
+- Media:
+    - Jellyfin:
+        href: http://10.0.0.208:8096
+        description: Watch.
+        icon: jellyfin
+    - Navidrome:
+        href: http://10.0.0.208:4533
+        description: Listen.
+        icon: music
+    - Jellyseerr:
+        href: http://10.0.0.208:5055
+        description: Discover.
+        icon: jellyseerr
 
-- My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
+- Cloud:
+    - Nextcloud:
+        href: http://10.0.0.157:80
+        description: Gather.
+        icon: cloud
+    - Homepage:
+        href: http://10.0.0.208:3000
+        description: Dashboard.
+        icon: home
 
-- My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
